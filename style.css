@@ -42,14 +42,18 @@ footer p{
 
 .navbar{
     padding: 10px;
+    padding-top: 2%;
 }
 
 .navbar ul{
-    padding top: 0;
+    padding-top: 0%;
     display: flex;
     text-decoration: none;
     list-style: none;
     flex-direction: row-reverse;
+    padding-left: 0%;
+
+    
 }
 
 .navbar ul li{
@@ -106,6 +110,17 @@ footer p{
 }
 
 
+.logo{
+    height: 3%;
+    width: 9%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 0%;
+} 
 
 
+.unit ol li{
+    color:rgb(63, 0, 0);
+
+}
 
