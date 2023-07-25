@@ -94,6 +94,9 @@ footer p{
     width: fit-content;
     padding-top: 2%;
     padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 400px;
 }
 
 .message p{
