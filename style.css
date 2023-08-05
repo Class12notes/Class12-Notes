@@ -8,6 +8,8 @@ nav{
     width: auto;
     padding: 0%;
     background-color: rgb(25, 55, 15);
+    border-bottom: solid 3px;
+    border-color: rgb(56, 63, 63);
 }
 
 
@@ -97,6 +99,7 @@ footer p{
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 400px;
+    margin: auto;
 }
 
 .message p{
