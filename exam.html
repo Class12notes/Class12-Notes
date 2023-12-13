@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Grade12 Notes</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <nav>
+    <div class="navbar">
+        <p style="width: fit-content;"><img src="Images/logo.png" style="height: 50px; width: 50px; display: block; margin-left: auto; margin-right: auto;  border-radius: 50%;"></p>
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="notes.html">NOTES</a></li>
+            <li><a href="#">QUESTION PAPER</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    document.querySelector('.menu-icon').addEventListener('click', function () {
+        document.querySelector('.navbar ul').classList.toggle('show');
+    });
+</script>
