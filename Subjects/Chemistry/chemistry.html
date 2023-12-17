@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+    <title>Mathematics</title>
 </head>
 <body>
+    <nav>
+    <div class="navbar">
+        <p style="width: fit-content;"><img src="../../Images/logo.png" style="height: 50px; width: 50px; display: block; margin-left: auto; margin-right: auto;  border-radius: 50%;"></p>
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../notes.html">NOTES</a></li>
+            <li><a href="#">QUESTION PAPER</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    document.querySelector('.menu-icon').addEventListener('click', function () {
+        document.querySelector('.navbar ul').classList.toggle('show');
+    });
+</script>
     <!-- CSS starts here -->
     <style>
         p{
@@ -19,11 +38,22 @@
         }
     </style>
     <!-- CSS ends here -->
-
-    <p>Here the few chapters Chemistry Notes are uploaded.<br>Stay tuned for further notes.</p>
-    <ol>
+    <div class="main">
+    <p style="padding: 10px;">Here the few chapters Chemistry Notes are uploaded.<br>Stay tuned for further notes.</p>
+    <ol style="padding: 30px;">
         <li><a href="chemical kinetics.pdf">Chemical Kinetics</a></li>
         <li><a href="volumetric analysis.pdf">Volumetric Analysis</a></li>
     </ol>
+    <p style="padding-bottom: 20px;">The Chemistry Notes of other topics are currently unavailable.<br> So stay tuned for further updates.<br>If you would like to help us by providing notes then contact us via our official mail <strong>class12easynotes@gmail.com</strong></p>
+
+    <!--Message for users -->
+    <div class="message">
+        <p>"Enhance your Learning Skill."</p>
+        <p style="color:bisque;">The Website work is going on so be patience for any error in the website.</p>
+
+      </div>
+
+    </div>
+<footer>JK</footer>
 </body>
 </html>

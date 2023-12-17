@@ -4,79 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="/style.css"> -->
-    <link rel="stylesheet" href="/style.css">
-    <title>Notes</title>
+    <link rel="stylesheet" href="../../style.css">
+    <title>Mathematics</title>
 </head>
 <body>
     <nav>
-        <div class="navbar">
-            <img src="Images/Logo.svg" class="logo">
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/notes.html">NOTES</a></li>
-                <li><a href="#">QUESTION PAPER</a></li>
-                <li><a href="#">ABOUT US</a></li>
-            </ul>
-        </div>
+    <div class="navbar">
+        <p style="width: fit-content;"><img src="../../Images/logo.png" style="height: 50px; width: 50px; display: block; margin-left: auto; margin-right: auto;  border-radius: 50%;"></p>
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../notes.html">NOTES</a></li>
+            <li><a href="#">QUESTION PAPER</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+</nav>
 
-    </nav>
-    
+<script>
+    document.querySelector('.menu-icon').addEventListener('click', function () {
+        document.querySelector('.navbar ul').classList.toggle('show');
+    });
+</script>
     
     <div class="main">
-        <h1 style="font-size:50px ; color:brown ; text-align: center; padding-top: 10%;padding-bottom: 5%;">
-            Welcome to Mathematics NOTES!</h1>
+        <h1 style="font-size:50px ; color:brown ; text-align: center; padding-top: 10%;padding-bottom: 5%">
+            Welcome to Mathematics NOTES!
+        </h1>
         
             <p style="color: rgb(0, 56, 0); text-align: center;">
                 Welcome to our website! Here you'll find mathematics notes, formulas, and solved exercises from <strong>Benchmark Publication</strong>.<br>
                 All the answers have been provided by grade 12 students.
-              </p>
+            </p>
               
-        <div>
+        <div  class="topic" style="padding: 30px;">
             <h2>Table of contents</h2>
 
             <ol type="1"><li><h3>Algebra</h3></li>
                 <ul>
                     <li>1.1 PERMUTATION AND COMBINATIONS</li>
                     <ul>
-                        <li><a href="">Exercise 1.1A</a></li>
-                        <li><a href="">Exercise 1.1B</a></li>
-                        <li><a href="">Exercise 1.1C</a></li>
+                        <li><button><a href="">Exercise 1.1A</a></button></li>
+                        <li><button><a href="">Exercise 1.1B</a></button></li>
+                        <li><button><a href="">Exercise 1.1C</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>1.2 BINOMIAL THEROEM</li>
                     <ul>
-                        <li><a href="">Exercise 1.2A</a></li>
-                        <li><a href="">Exercise 1.2B</a></li>
-                        <li><a href="">Exercise 1.2C</a></li>
-                        <li><a href="">Exercise 1.2D</a></li>
+                        <li><button><a href="">Exercise 1.2A</a></button></li>
+                        <li><button><a href="">Exercise 1.2B</a></button></li>
+                        <li><button><a href="">Exercise 1.2C</a></button></li>
+                        <li><button><a href="">Exercise 1.2D</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>1.3 COMPLEX NUMBERS</li>
                     <ul>
-                        <li><a href="">Exercise 1.3A</a></li>
-                        <li><a href="">Exercise 1.3B</a></li>
+                        <li><button><a href="">Exercise 1.3A</a></button></li>
+                        <li><button><a href="">Exercise 1.3B</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>1.4 SEQUENCE AND SERIES</li>
                     <ul>
-                        <li><a href="">Exercise 1.4A</a></li>
-                        <li><a href="">Exercise 1.4B</a></li>
+                        <li><button><a href="">Exercise 1.4A</a></button></li>
+                        <li><button><a href="">Exercise 1.4B</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>1.5 SYSTEM OF LINEAR EQUATIONS</li>
                     <ul>
-                        <li><a href="">Exercise 1.5A</a></li>
-                        <li><a href="">Exercise 1.5B</a></li>
-                        <li><a href="">Exercise 1.5C</a></li>
+                        <li><button><a href="">Exercise 1.5A</a></button></li>
+                        <li><button><a href="">Exercise 1.5B</a></button></li>
+                        <li><button><a href="">Exercise 1.5C</a></button></li>
                     </ul>
                 </ul>
              <!--Above codes indicates the chap list for Algebra-->
@@ -86,14 +91,14 @@
                 <ul>
                     <li>2.1 PROPERTIES OF TRIANGLE</li>
                     <ul>
-                        <li><a href="trigonometry21.pdf">Exercise 2.1</a></li>
+                        <li><button><a href="trigonometry21.pdf">Exercise 2.1</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>2.2 SOLUTION OF TRIANGLE</li>
                     <ul>
-                        <li><a href="">Exercise 2.2</a></li>
+                        <li><button><a href="">Exercise 2.2</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -104,18 +109,18 @@
                 <ul>
                     <li>3.1 CIRCLE</li>
                     <ul>
-                        <li><a href="">Exercise 3.1A</a></li>
-                        <li><a href="">Exercise 3.1B</a></li>
+                        <li><button><a href="">Exercise 3.1A</a></button></li>
+                        <li><button><a href="">Exercise 3.1B</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>3.2 CONIC SECTIONS</li>
                     <ul>
-                        <li><a href="">Exercise 3.2A</a></li>
-                        <li><a href="">Exercise 3.2B</a></li>
-                        <li><a href="">Exercise 3.2C</a></li>
-                        <li><a href="">Exercise 3.2D</a></li>
+                        <li><button><a href="">Exercise 3.2A</a></button></li>
+                        <li><button><a href="">Exercise 3.2B</a></button></li>
+                        <li><button><a href="">Exercise 3.2C</a></button></li>
+                        <li><button><a href="">Exercise 3.2D</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -126,14 +131,14 @@
                 <ul>
                     <li>4.1 SCALAR PRODUCT</li>
                     <ul>
-                        <li><a href="">Exercise 4.1</a></li>
+                        <li><button><a href="">Exercise 4.1</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>4.2 VECTOR PRODUCT</li>
                     <ul>
-                        <li><a href="">Exercise 4.2</a></li>
+                        <li><button><a href="">Exercise 4.2</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -144,15 +149,15 @@
                 <ul>
                     <li>5.1 CORRELATION AND REGRESSION</li>
                     <ul>
-                        <li><a href="">Exercise 5.1A</a></li>
-                        <li><a href="">Exercise 5.1B</a></li>
+                        <li><button><a href="">Exercise 5.1A</a></button></li>
+                        <li><button><a href="">Exercise 5.1B</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>2.2 PROBABILITY</li>
                     <ul>
-                        <li><a href="">Exercise 5.2</a></li>
+                        <li><button><a href="">Exercise 5.2</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -163,29 +168,29 @@
                 <ul>
                     <li>6.1 DERIVATIVES</li>
                     <ul>
-                        <li><a href="">Exercise 6.1A</a></li>
-                        <li><a href="">Exercise 6.1B</a></li>
-                        <li><a href="">Exercise 6.1C</a></li>
-                        <li><a href="">Exercise 6.1D</a></li>
+                        <li><button><a href="">Exercise 6.1A</a></button></li>
+                        <li><button><a href="">Exercise 6.1B</a></button></li>
+                        <li><button><a href="">Exercise 6.1C</a></button></li>
+                        <li><button><a href="">Exercise 6.1D</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>6.2 ANTI-DERIVATIVE</li>
                     <ul>
-                        <li><a href="">Exercise 6.2A</a></li>
-                        <li><a href="">Exercise 6.2B</a></li>
-                        <li><a href="">Exercise 6.2C</a></li>
+                        <li><button><a href="">Exercise 6.2A</a></button></li>
+                        <li><button><a href="">Exercise 6.2B</a></button></li>
+                        <li><button><a href="">Exercise 6.2C</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>6.3 DIFFERENTIAL EQUATIONS</li>
                     <ul>
-                        <li><a href="">Exercise 6.3A</a></li>
-                        <li><a href="">Exercise 6.3B</a></li>
-                        <li><a href="">Exercise 6.3C</a></li>
-                        <li><a href="">Exercise 6.3D</a></li>
+                        <li><button><a href="">Exercise 6.3A</a></button></li>
+                        <li><button><a href="">Exercise 6.3B</a></button></li>
+                        <li><button><a href="">Exercise 6.3C</a></button></li>
+                        <li><button><a href="">Exercise 6.3D</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -196,15 +201,15 @@
                 <ul>
                     <li>7.1 GAUSSIAN ELIMINATION</li>
                     <ul>
-                        <li><a href="">Exercise 7.1A</a></li>
-                        <li><a href="">Exercise 7.1B</a></li>
+                        <li><button><a href="">Exercise 7.1A</a></button></li>
+                        <li><button><a href="">Exercise 7.1B</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>7.2 LPP</li>
                     <ul>
-                        <li><a href="">Exercise 7.2</a></li>
+                        <li><button><a href="">Exercise 7.2</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -217,15 +222,15 @@
                 <ul>
                     <li>8.1 GAUSSIAN ELIMINATION</li>
                     <ul>
-                        <li><a href="">Exercise 8.1</a></li>
+                        <li><button><a href="">Exercise 8.1</a></button></li>
                     </ul>
                 </ul>
                 <br>
                 <ul>
                     <li>8.2 DYNAMICS</li>
                     <ul>
-                        <li><a href="">Exercise 8.2A</a></li>
-                        <li><a href="">Exercise 8.2B</a></li>
+                        <li><button><a href="">Exercise 8.2A</a></button></li>
+                        <li><button><a href="">Exercise 8.2B</a></button></li>
                     </ul>
                 </ul>
                 <br>
@@ -242,7 +247,8 @@
 
     
     
-    
+    </div>
+
     <footer>
 jk
     </footer>
