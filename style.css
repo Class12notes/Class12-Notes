@@ -156,5 +156,13 @@ footer p {
 }
 
 .topic ol li{
-    color: aqua;
+    color: rgb(183, 0, 255);
+}
+
+.topic ol ul li a{
+    color: rgb(29, 2, 150);
+}
+
+.topic ol li a{
+    text-decoration: none;
 }
